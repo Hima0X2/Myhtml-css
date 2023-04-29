@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<head>
+<title>Sanjida Akter Samanta</title>
+</head>
+<body>
+<a href="#new1">a</a>
+<a href="#new1">b</a>
+<a href="#new1">c</a>
+<a href="#new1">Jump to new1</a>
+<h2>
+<ul><li>Ice cream</li>
+<li>Mango</li>
+<li>Cake</li>
+<li>Meat</li>
+</h2>
+<h2><pre>
+Progress in this course (100%),
+Progress in the Specialization capstone (15%),
+and Progress in life goals (60%)
+</pre></h2>
+<img src=" http://www.intro-webdesign.com/images/newlogo.png">This page was created by Sanjida Akter Samanta
+<a href=" http://intro-webdesign.com"></a>
+</body>
+</html>
