@@ -1,0 +1,16 @@
+body{
+	background: url(download.jpg);
+	background-size: 500px 500px;
+	background-repeat: no-repeat;
+	/*background-attachment: scroll; */
+	/*picture scroll*/
+	background-attachment: local; 
+	
+
+}
+h2{
+	display: inline;
+	color: red;
+	border : 2px dotted blue;
+	/*solid ba dotted lagbei color deoar jnno*/
+}

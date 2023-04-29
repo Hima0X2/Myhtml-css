@@ -1,0 +1,59 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+html{
+	font-size: 10px;
+	font-family:'Raleway', sans-serif;
+}
+a{
+	text-decoration: none;
+}
+.container{
+	min-height: 100vh;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+#hero{
+	background-image: url(image.jpg);
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+/*#hero::after use hoy #hero k change krar jnno*/
+#hero h1{
+	display: block;
+	width: fit-content;
+	font-size: 4rem;
+	position: relative;
+	color: white;
+   font-weight: bold;
+}
+#hero h1 span{
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background-color: black;
+}
+#hero .cta{
+display: inline-block;
+padding: 10px 30px;
+color:white;
+background-color: transparent;
+border:3px solid black;
+text-transform: uppercase;
+letter-spacing: 1rem;
+margin-top: 30px;
+transition: .3s ease background-color;
+font-weight: bold;
+}
+#hero .cta:hover{
+color: black;
+background-color: white;
+border:3px solid white;
+}

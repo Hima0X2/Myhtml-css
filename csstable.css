@@ -1,0 +1,18 @@
+.mytable{
+ padding: 200px;
+ background-color: black;
+ margin: auto;
+}
+.table{
+color: white;
+/*width: 50%;*/
+margin: auto;
+/*background-color: red;*/
+/*padding: 50px;*/
+}
+th{
+	background-color: red;
+}
+td{
+	background-color: blue;
+}

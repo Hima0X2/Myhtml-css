@@ -1,0 +1,23 @@
+a{
+	display: inline;
+	width: 200px;
+	margin: 10px;
+	background-color: brown;
+	border-radius: 20px;
+}
+a:hover{
+	
+	color: white;
+	width: 200px;
+	margin: 10px;
+	background-color: red;
+	border-radius: 20px;
+}
+a:visited{
+	
+	color: white;
+	width: 200px;
+	margin: 10px;
+	background-color: blue;
+	border-radius: 20px;
+}

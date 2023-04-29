@@ -1,4 +1,4 @@
-#style1{text-align:right;color:red}
-.style2{text-align:center;color:blue}
-.my_style{text-align:center;color:green!important}
-.heading_style{text-align:center;color-white;background:red;padding:30px}
+p{
+			color: brown;
+			background-color: black;
+		}

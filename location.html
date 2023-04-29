@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Location
+	</title>
+</head>
+<body>
+	<h1 id="empty"></h1>
+
+  <button type="button" onclick="myLocation()" onclick="myPosition()">
+  	Get location
+  </button>
+  <script type="text/javascript">
+  	var h = document.getElementById("empty")
+  function myPosition(){
+  	if (navigator.geoloacation) {
+  		navigator.geoloacation.getCurrentPosition();
+  	}
+  }
+function showlocation(position){
+	h.innerHTML="long :"+position.coords.longitude;
+}
+  </script>
+</body>
+</html>
